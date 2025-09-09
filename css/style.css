@@ -310,6 +310,8 @@ body {
 
 .hero {
     padding: 150px 100px;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    height: 91.5vh;
 }
 
 .hero-content {
@@ -450,7 +452,7 @@ body {
 
 @media (max-width: 640px) {
     .hero {
-        padding: 35px 30px !important;
+        padding: 15px 30px 8px !important;
     }
 }
 
